@@ -64,14 +64,14 @@ void loop()
   //put your main code here, to run repeatedly:
  
   // Serial.print("Duration;");
- //  Serial.println(duration);
+  //  Serial.println(duration);
   Serial.print("Distance1;");
   Serial.println( sonar1() );
 
   Serial.print("Distance2;");
   Serial.println( sonar2() );
 
- Serial.print("Distance3;");
+  Serial.print("Distance3;");
   Serial.println( sonar3() );
  
  
